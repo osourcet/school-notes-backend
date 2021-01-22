@@ -12,4 +12,4 @@ __!__ *You need to install the frontend AND backend version to use 'School Notes
 #### Docker
 
 #### Frontend
-[Documention to install the frontend version](https://github.com/osourcet/school-notes-frontend/blob/stable/README.md)
+[Documentation for installing the frontend version](https://github.com/osourcet/school-notes-frontend/blob/stable/README.md)
