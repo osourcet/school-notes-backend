@@ -5,7 +5,7 @@ __Compatible with school-notes-frontend@3.x.x or later__
 
 ## Installation
 
-__!__ *You must install the frontend AND backend version to use 'School Notes'*
+__!__ *You need to install the frontend AND backend version to use 'School Notes'*
 
 #### Native (Linux)
 
