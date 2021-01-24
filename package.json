@@ -1,0 +1,31 @@
+{
+  "name": "school-notes-backend",
+  "version": "3.0.0-pre-alpha",
+  "description": "__Version: >3.x.x__   __Compatible with school-notes-frontend@3.x.x or later__",
+  "main": "server.js",
+  "scripts": {
+    "server": "node .",
+    "dev": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osourcet/school-notes-backend.git"
+  },
+  "author": "Felix Wochnick",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/osourcet/school-notes-backend/issues"
+  },
+  "homepage": "https://github.com/osourcet/school-notes-backend#readme",
+  "type": "commonjs",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.6.3",
+    "node-schedule": "^1.3.2",
+    "uuid": "^8.3.2"
+  }
+}
