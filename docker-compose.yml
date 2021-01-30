@@ -1,0 +1,19 @@
+version: '3.4'
+
+services:
+  school-notes-backend:
+    image: school-notes-backend
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    environment:
+      NODE_ENV: production
+      MONGODB: mongodb://mongo:27017/schoolnotes
+    ports:
+      - 8081:8081
+    depends_on: 
+      - mongo
+  mongo:
+    image: "mongo"
+    ports:
+      - 27017:27017
