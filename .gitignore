@@ -1,5 +1,7 @@
 build
 
+*.rest
+
 # Logs
 logs
 *.log
